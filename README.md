@@ -1,10 +1,10 @@
 
 # NEZ-DeepSeek-OCR GUI
 
-**NEZ-DeepSeek-OCR GUI**は、強力な画像認識AIである「DeepSeek-OCR」を簡単に試すための非エンジニア向けのGUIです（NEZ = Non-Engineer's Zapper）。
+**NEZ-DeepSeek-OCR GUI**は、画像認識AI「DeepSeek-OCR」を簡単に試すための非エンジニア向けのGUIです（NEZ = Non-Engineer's Zapper）。
 スマートフォン等で撮影した**レシートの画像をテキスト化する**ことを主な使用目的として想定しています。
 
-> ▽ここにgif画像を貼って動作の例を見せる
+![DeepSeek-OCR_demo_20251023](https://github.com/user-attachments/assets/69836652-b5b5-4702-a2a2-a9004a2537a9)
 
 ## DeepSeek-OCRとは？
 中国企業DeepSeek社の開発した、オープンウェイトの画像認識AIです。**ローカル環境で（つまり、オフラインのパソコンで）実行できます**。たとえばChatGPTやGeminiなどのオンラインサービスでは、読み取った画像やテキストのデータをOpenAIやGoogleに提供することになります。一方、ローカル環境のDeepSeek-OCRなら、情報を外部に漏らさずに画像をテキスト化できます。
@@ -47,14 +47,16 @@ https://huggingface.co/deepseek-ai/DeepSeek-OCR
 Pythonは、生成AI研究で広く使われているプログラミング言語です。このアプリは**Ver.3.10で動作検証**しました。理屈の上では、より新しいバージョンでも動く可能性が高いです（未検証）。検証報告をお待ちしています。
 
 - まずは以下のURLより、Python公式サイトにアクセスしてください。
-  https://www.python.org/
+  https://www.python.org/  
 
-- ① [Downloads] → ② [Windows] を開き、ページ下部の「3.10.**」から「**Windows installer (64-bit)**」をダウンロードしてください。  
+![PythonスクショA](https://github.com/user-attachments/assets/b0cdb185-c40e-415d-8b6e-8e89755e909a)  
+- ① [Downloads] → ② [Windows] を開きます。  
 
-
+![PythonスクショB](https://github.com/user-attachments/assets/974f82ae-5472-4c21-88b2-b31d8b88d388)  
+- ページ下部の「3.10.**」から「**Windows installer (64-bit)**」をダウンロードしてください。  
 - ダウンロードが完了したら、`python-3.10.**-amd64.exe` を実行してインストールします。  
-
-
+  
+![PythonスクショC](https://github.com/user-attachments/assets/0509d307-6b8b-486d-8379-c56c24cb260d)  
 - **Note:** インストール時に **「Add python 3.10 to PATH」** のチェックを必ず入れてください。チェックを入れ忘れると「パスが通っていない」状態になり、上手く動作しません。
 
 
@@ -63,7 +65,7 @@ Gitとは、オンラインのファイル管理サービスです。現代で�
 
 - Git公式サイト（Windows版）: https://git-scm.com/install/windows  
 
-> （スクショD 挿入予定）
+![Gitスクショ](https://github.com/user-attachments/assets/753809df-367f-41a8-969c-8e7d96c538f7)
 - 普通のパソコンなら、`Git for Windows/x64 Setup`を選択してください。
   `ARM64`は、サーバーマシンやモバイル端末などの（いわば）特殊なパソコン向けです。CPUの種類によって区別されます。
 
