@@ -1,0 +1,19 @@
+﻿#CUDA が 11.8 以外なら、先頭の --index-url を環境に合わせて変更してください（例: cu121）。
+--index-url https://download.pytorch.org/whl/cu118
+--extra-index-url https://pypi.org/simple
+
+# Server
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.12
+pillow==10.4.0
+
+# Inference (Transformers route)
+torch==2.6.0
+torchvision==0.21.0
+torchaudio==2.6.0
+transformers==4.46.3
+tokenizers==0.20.3
+addict==2.4.0
+einops
+easydict
