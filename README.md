@@ -75,21 +75,22 @@ Gitとは、オンラインのファイル管理サービスです。現代で�
 
 ### 3) このアプリのデータをダウンロードする
 
-GitHubからソース一式を取得します。
-例）`https://github.com/Rootport-AI/NEZ-DeepSeek-OCR-GUI`
-
 **方法A：ブラウザからZIPで落とす（超かんたん）**  
-1) リポジトリのページを開く  
-2) 緑色の「Code」ボタン → 「Download ZIP」
+
+![githubスクショ01_02](https://github.com/user-attachments/assets/fa620afb-b4cd-46bc-b531-651b10a09389)
+1) 緑色の「Code」ボタンを押します。
+
+![githubスクショ02_02](https://github.com/user-attachments/assets/634b6589-d50b-4b68-8dfd-55306c2c7f39)
+2) 「Download ZIP」を押します。
 3) このアプリの保存先にしたいフォルダに解凍します。
 
-**方法B：gitでクローン（おすすめ）**
+**方法B：gitでクローン（中級者向け）**
 1) このアプリの保存先にしたいフォルダをWindowsのエクスプローラーで開き、アドレスバーに`cmd`と打ってエンターキーを押します。
 2) コマンドプロンプト（黒い画面）が開きます。
 3) 以下のコマンドをコピペしてエンターキーを押します。
 ```bat
-git clone https://github.com/Rootport-AI/NEZ-DeepSeek-OCR-GUI.git
-cd NEZ-DeepSeek-OCR-GUI
+git clone https://github.com/Rootport-AI/NEZ-DeepSeek-OCR.git
+cd NEZ-DeepSeek-OCR
 ```
   
 
