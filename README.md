@@ -48,12 +48,12 @@ Pythonは、生成AI研究で広く使われているプログラミング言語
 
 - まずは以下のURLより、Python公式サイトにアクセスしてください。
   https://www.python.org/  
-
+  
 ![PythonスクショA](https://github.com/user-attachments/assets/b0cdb185-c40e-415d-8b6e-8e89755e909a)  
 - ① [Downloads] → ② [Windows] を開きます。  
-
+  
 ![PythonスクショB](https://github.com/user-attachments/assets/974f82ae-5472-4c21-88b2-b31d8b88d388)  
-- ページ下部の「3.10.**」から「**Windows installer (64-bit)**」をダウンロードしてください。  
+- ③ページ下部の「3.10.**」から「**Windows installer (64-bit)**」をダウンロードしてください。  
 - ダウンロードが完了したら、`python-3.10.**-amd64.exe` を実行してインストールします。  
   
 ![PythonスクショC](https://github.com/user-attachments/assets/0509d307-6b8b-486d-8379-c56c24cb260d)  
@@ -115,9 +115,11 @@ git clone https://huggingface.co/deepseek-ai/DeepSeek-OCR
 ```
 DeepSeek-OCR本体のリポジトリのダウンロードが始まります。
 **Note:**DeepSeek-OCRのサイズは6～7GBです。回線速度にもよりますが、ダウンロードには20～30分間かかります。動きが止まっているように見えるときは、**タスクマネージャーなどでダウンロードが進行していることを確認**してみましょう。
+![DeepSeek-OCR_ダウンロード02](https://github.com/user-attachments/assets/8202f329-09de-4c13-a238-400c5ccb1834)
+ダウンロードが完了していれば、コマンドプロンプトが「入力待ち」の状態になります。入力待ちになっていない＝裏側でダウンロードが進行中です。
 
 5) ダウンロードできたか確認  
-`DeepSeek-OCR\model-00001-of-000001.safetensors` の**サイズがGB級**→OK（数KBならLFSやり直し）。
+`DeepSeek-OCR\model-00001-of-000001.safetensors` の**サイズがGB級**→OK（数KBならダウンロード途中か、LFSに問題があります）。
 
 フォルダ構成イメージ：
 ```
